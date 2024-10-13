@@ -1,0 +1,277 @@
+body {
+  background-color: rgb(3, 3, 31);
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  color: aliceblue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: rgb(3, 3, 31);
+  margin-top: 10px;
+}
+.navbar p {
+  margin-top: 20px;
+  color: white;
+}
+
+.top-left-container {
+  display: flex;
+  gap: 30px;
+}
+.top-right-container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.search-container {
+  border-radius: 20px;
+  align-items: center;
+  display: flex;
+  height: 40px;
+  width: 400px;
+  gap: 20px;
+  border: 2px solid white;
+  background-color: #3d4981;
+  justify-content: space-between;
+}
+.search-container-start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container i {
+  margin-inline: 15px;
+  font-size: 18px;
+  color: #333;
+  padding: 0 10px;
+  cursor: pointer;
+  border-radius: 0%;
+}
+
+.search-bar {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.image-logo1 {
+  width: 159px;
+  height: 69px;
+}
+
+.image-logo2 {
+  margin-right: 20px;
+  width: 69px;
+  height: 69px;
+}
+
+/* main */
+
+.container {
+  display: flex !important;
+}
+.left-container {
+  width: 60%;
+  margin-left: 50px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  height: 650px;
+}
+
+.main {
+  margin-top: 50px;
+  gap: 30px;
+  display: flex;
+  background-color: rgb(23, 38, 90);
+  margin-bottom: 25px;
+}
+.main img {
+  width: 310px;
+  height: 310px;
+}
+.main-right-up {
+  padding-top: 40px;
+  display: flex;
+  gap: 300px;
+}
+.main-right2 {
+  margin-top: 10px;
+}
+.main-right-middle {
+  margin-top: 15px;
+}
+
+.btn {
+  margin-block: 40px 10px;
+  display: flex;
+}
+.btn button {
+  padding: 9px 40px;
+  margin-right: 20px;
+  background: linear-gradient(
+    109.2deg,
+    rgb(249, 174, 240) 6.5%,
+    rgb(139, 144, 250) 97.1%
+  );
+  border: none;
+}
+
+.btn-uni {
+  margin-top: 8px;
+  margin-left: 20px;
+}
+
+.Queue-songs {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+  padding-left: 8px;
+  /* background-color: rgb(39, 40, 53); */
+  align-items: center;
+  height: 70px;
+}
+#que-son {
+  background-color: rgb(39, 40, 53);
+}
+.serial-queue {
+  color: grey;
+  font-size: 16px;
+  font-weight: lighter;
+}
+.queue-icons {
+  margin-left: 580px;
+}
+.queue-icons i {
+  margin-right: 25px;
+}
+.serial-queue h7 {
+  padding: 8px !important;
+}
+.Queue-image {
+  height: 50px;
+  width: 55px;
+}
+/* .Queue-heart {
+  color: gray;
+  font-weight: lighter;
+  margin-left: 120px !important;
+} */
+.songs {
+  color: white;
+  font-weight: bold;
+  margin-left: 5px;
+  margin: 0px !important;
+}
+.songs h4 {
+  margin: 8px;
+}
+
+/* rightcontainer */
+.right-container {
+  width: 38%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  height: 650px;
+  margin-right: 0px;
+}
+
+.heading {
+  display: flex;
+  color: white;
+  margin-block: 25px;
+  margin-left: 40px;
+  gap: 200px;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.heading h6 {
+  opacity: 0.6;
+  margin-top: 13px;
+}
+.artist {
+  display: flex;
+  gap: 30px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.songs {
+  margin-right: 50px;
+}
+
+.so {
+  display: flex;
+  align-items: center;
+}
+.time {
+  margin-left: 180px;
+}
+.dot {
+  font-weight: bold;
+  font-size: 20px;
+}
+.timmimg {
+  color: grey;
+  margin-right: 5px;
+}
+.artist img {
+  height: 60px;
+  width: 70px;
+}
+.Queue-songs {
+  display: flex;
+  gap: 20px;
+  /* margin-left: 20px; */
+}
+#que-right {
+  margin-left: 33px;
+}
+
+.serial-queue {
+  color: grey;
+  font-size: 16px;
+  font-weight: lighter;
+}
+.serial-queue h7 {
+  padding: 8px !important;
+}
+.Queue-image {
+  height: 50px;
+  width: 60px;
+}
+.Queue-heart {
+  color: gray;
+  font-weight: lighter;
+  margin-left: 255px;
+}
+.songs1 {
+  color: white;
+  font-weight: bold;
+  margin-left: 5px;
+  margin: 0px !important;
+}
+.songs1 h4 {
+  margin: 8px;
+}
+.queue {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Queue-song-main {
+  margin-right: 50px;
+  margin-left: 20px;
+}
